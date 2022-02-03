@@ -13,3 +13,19 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Binaries for programs and plugins
+package-lock.json
+package.json
+*.db
+*.tar.gz
+
+dist/
+.idea/
+.vscode/
+logs/
+test_data/
+build/
+
+
+/conf/local/test_data/
