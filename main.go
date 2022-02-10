@@ -15,7 +15,10 @@ func main() {
 	//a := question.FindMedianSortedArrays([]int{}, []int{2})
 
 	//a := question.SumOfUnique([]int{1, 1, 2, 3, 2, 5, 7, 7, 7})
-	a := question.Convert("ZHUJIAMIN123", 3)
+	//a := question.Convert("ZHUJIAMIN123", 3)
+
+	a := question.SimplifiedFractions(4)
+
 	fmt.Println(a)
 
 }
