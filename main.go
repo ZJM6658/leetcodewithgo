@@ -6,7 +6,8 @@ import (
 )
 
 func main() {
-	a := question.MaxNumberOfBalloons("lloo")
+	a := question.MyAtoiStateMachine("-91283472332")
+	//a := question.MaxNumberOfBalloons("lloo")
 
 	//question.FindMinFibonacciNumbers(19)
 	//a := question.TwoSum([]int{2, 7, 8, 11, 15}, 26))
@@ -38,6 +39,24 @@ func main() {
 	//}
 	//a := question.NumEnclaves(grid)
 
-	fmt.Println(a)
+	//s := "a1sdf"
+	//a := s[1]
+	//
+	//fmt.Println(reflect.TypeOf(s)) // string
+	//fmt.Println(reflect.TypeOf("0")) // string
+	//fmt.Println(reflect.TypeOf('0')) // int32
+	//fmt.Println(reflect.TypeOf('s')) // int32
+	//fmt.Println('s') // 115
+	//
+	//fmt.Println('0') // 48
+	//fmt.Println(reflect.TypeOf(a)) //uint8
+	//fmt.Println(a) // 115
+	//
+	//fmt.Println(reflect.TypeOf(s[1] - '0')) // 48
+	//fmt.Println(reflect.TypeOf(int(s[1] - '0'))) // uint8
+	//
+	//fmt.Println(s[1] - '0')  // 49
+	//fmt.Println(int(s[1] - '0')) // uint8
 
+	fmt.Println(a)
 }
