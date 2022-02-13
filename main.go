@@ -6,7 +6,8 @@ import (
 )
 
 func main() {
-	a := question.MyAtoiStateMachine("-91283472332")
+	a := question.IsPalindrome(12221)
+	//a := question.MyAtoiStateMachine("-91283472332")
 	//a := question.MaxNumberOfBalloons("lloo")
 
 	//question.FindMinFibonacciNumbers(19)
