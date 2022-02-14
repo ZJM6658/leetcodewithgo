@@ -6,8 +6,9 @@ import (
 )
 
 func main() {
-	a := question.CountOperationsBetter(169, 48)
-	fmt.Println("=========")
+	a := question.RomanToInt("MCMXCIV")
+	//a := question.CountOperationsBetter(169, 48)
+	//fmt.Println("=========")
 	//b := question.CountOperations(169,48)
 	//fmt.Println(b)
 
