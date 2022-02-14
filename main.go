@@ -6,7 +6,12 @@ import (
 )
 
 func main() {
-	a := question.SingleNonDuplicate2([]int{1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7, 7, 8, 8})
+	a := question.CountOperationsBetter(169, 48)
+	fmt.Println("=========")
+	//b := question.CountOperations(169,48)
+	//fmt.Println(b)
+
+	//a := question.SingleNonDuplicate2([]int{1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7, 7, 8, 8})
 	//a := question.IsPalindrome(12221)
 	//a := question.MyAtoiStateMachine("-91283472332")
 	//a := question.MaxNumberOfBalloons("lloo")
