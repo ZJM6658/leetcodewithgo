@@ -6,12 +6,12 @@ import (
 )
 
 var N = 510
-var cnts, fa = make([]int, N), make([]int, N)
-var g = make([][]bool, N)
 
 // 宫水三叶 https://leetcode-cn.com/problems/number-of-ways-to-reconstruct-a-tree/solution/gong-shui-san-xie-gou-zao-yan-zheng-he-f-q6fc/
 // java翻译成go
 func CheckWaysThreeLeaf(pairs [][]int) int {
+	var cnts, fa = make([]int, N), make([]int, N)
+	var g = make([][]bool, N)
 	for i := range g {
 		g[i] = make([]bool, N)
 	}
