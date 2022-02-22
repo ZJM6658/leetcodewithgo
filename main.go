@@ -6,7 +6,8 @@ import (
 )
 
 func main() {
-	a := question.CheckWaysThreeLeaf([][]int{{1, 2}})
+	a := question.LongestNiceSubstring("YazaAay")
+	//a := question.CheckWaysThreeLeaf([][]int{{1, 2}})
 	//a := question.RomanToInt("MCMXCIV")
 	//a := question.CountOperationsBetter(169, 48)
 	//fmt.Println("=========")
