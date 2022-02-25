@@ -26,6 +26,6 @@ dist/
 logs/
 test_data/
 build/
-
+test/
 
 /conf/local/test_data/
